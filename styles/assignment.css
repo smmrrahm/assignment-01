@@ -163,3 +163,49 @@ nav .logo{
     justify-content: center;
     gap: 10px;
 }
+.get-touch{
+display: flex;
+width: 1140px;
+height: 632px;
+justify-content: space-between;
+align-items: center;
+padding-left: 150px;
+padding-right: 150px;
+
+}
+.get-touch h1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 97px;
+    width: 528px;
+    height: 232px;
+}
+.form-group{
+    display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+}
+.form-group label {
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #333;
+    }
+     .form-group input,
+    .form-group textarea {
+      padding: 12px 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .form-button {
+      background-color: #4E47FF;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 497px;
+      height: 62px;
+
+      
+      
+    }
