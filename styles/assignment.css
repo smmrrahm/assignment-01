@@ -100,3 +100,66 @@ nav .logo{
     border-radius: 48px;
     
 }
+
+.feedback h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+
+}
+.card{
+    background-color: white;
+    padding: 24px 24px;
+    width: 366px;
+    height: 243px;
+    border: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align:left;
+    border: 14px;
+    
+    
+
+}
+.star{
+    display: flex;
+    width: 16.67px;
+    height: 15.85px;
+    color: #FFB805;
+}
+.title{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: ('heading');
+}
+.description{
+    font-family:('body base');
+    font-size: 14px;
+    margin-bottom: 15px;
+
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+
+}
+.reviewer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.reviewer-details{
+    color: #757575;
+
+}
+.reviewer-details br{
+    color: #B3B3B3;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
