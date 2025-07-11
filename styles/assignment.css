@@ -64,9 +64,7 @@ nav .logo{
      width: 1140px;
     height: 328px;
     margin: 0 auto;
-    padding-left: 141px;
-    padding-right: 159px;
-   
+   padding-top: 50px;
 }
 .action h3{
     font-size: 42px;
@@ -205,7 +203,34 @@ padding-right: 150px;
       cursor: pointer;
       width: 497px;
       height: 62px;
-
-      
       
     }
+    footer{
+        width: 1440px;
+        height: 428px;
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+        
+    }
+    .footer-logo{
+        color: #4E47FF;
+        font-size: 100px;
+        font-weight: bold;
+        font-family: font-family:'inter' sans-serif;
+
+    }
+    nav.footer-nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    nav.footer-nav a {
+      text-decoration: none;
+      color: #888;
+      font-size: 14px;
+      
+    }
+   
